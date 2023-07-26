@@ -3,7 +3,7 @@ This is a [Homebrew](https://brew.sh) tap for [Chronometry](https://github.com/a
 
 ## Installation
 ```bash
-brew tap ant4g0nist/chronometry
+brew tap ant4g0nist/tap
 brew install chronometry
 ```
 
