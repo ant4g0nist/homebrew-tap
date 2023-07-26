@@ -10,7 +10,7 @@ class Cmetry < Formula
     on_macos do
       if Hardware::CPU.arm?
         url "https://github.com/ant4g0nist/chronometry/releases/download/v0.9.5/chronometry_Darwin_arm64.tar.gz"
-        sha256 "942cb3ec5e172ab5276e8c5645bf4bfb928d7220fd13772156c85555865a1b05"
+        sha256 "ee2f617a70e3113e26ca29b2802979d7c22f5d216470e66ae8119bf42fb812ad"
   
         def install
           bin.install "cmetry"
@@ -18,7 +18,7 @@ class Cmetry < Formula
       end
       if Hardware::CPU.intel?
         url "https://github.com/ant4g0nist/chronometry/releases/download/v0.9.5/chronometry_Darwin_x86_64.tar.gz"
-        sha256 "f9aac38cf232495ecbae5279a4728c737d040c5a8b2872491bc9f3f51e4ffa28"
+        sha256 "9352eb0307ea61bbacbc5615c97d4b41c87f590629e6ccf0f53d03c777af255a"
   
         def install
           bin.install "cmetry"
@@ -29,7 +29,7 @@ class Cmetry < Formula
     on_linux do
       if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
         url "https://github.com/ant4g0nist/chronometry/releases/download/v0.9.5/chronometry_Darwin_arm64.tar.gz"
-        sha256 "38c5b5265ae15472dd1a2557856567fc830cac6479166931c1f9959714d49648"
+        sha256 "a90b1597ce1de7546358307890134461b5005dff509c5f5446c1c1b083d8bcb9"
   
         def install
           bin.install "cmetry"
@@ -37,7 +37,7 @@ class Cmetry < Formula
       end
       if Hardware::CPU.intel?
         url "https://github.com/ant4g0nist/chronometry/releases/download/v0.9.5/chronometry_Darwin_x86_64.tar.gz"
-        sha256 "9a34365e5f39cf7783194dfd6fc958d69bcc40acfabf80bea722e188130ad7a6"
+        sha256 "94869ebd2e4d892e089b17c0a890a0bc68abc2871d5d43d76cb2fd9e5a65bfc6"
   
         def install
           bin.install "cmetry"
