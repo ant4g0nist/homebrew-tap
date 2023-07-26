@@ -5,20 +5,20 @@
 class Cmetry < Formula
     desc "Chronometry CLI"
     homepage "https://github.com/ant4g0nist/chronometry"
-    version "0.9.7"
+    version "0.9.8"
   
     on_macos do
       if Hardware::CPU.arm?
-        url "https://github.com/ant4g0nist/chronometry/releases/download/v0.9.7/chronometry_Darwin_arm64.tar.gz"
-        sha256 "227bd07c561f04456477370e437d3f3e869c91ea1a72b5dfb33d94d290f522ec"
+        url "https://github.com/ant4g0nist/chronometry/releases/download/v0.9.8/chronometry_Darwin_arm64.tar.gz"
+        sha256 "1c86406f81b901e4e87339b01047b6249b03e580a8d9b729c0ffcf8fd1ada376"
   
         def install
           bin.install "cmetry"
         end
       end
       if Hardware::CPU.intel?
-        url "https://github.com/ant4g0nist/chronometry/releases/download/v0.9.7/chronometry_Darwin_x86_64.tar.gz"
-        sha256 "6afde2e8dc60a68640a5482022b6231409d9426b9167cb24c6df978525bb20be"
+        url "https://github.com/ant4g0nist/chronometry/releases/download/v0.9.8/chronometry_Darwin_x86_64.tar.gz"
+        sha256 "11316a94d29e37eab544d5d56b5d27595fcc2af86d94b86edc2ee211cd22a0bc"
   
         def install
           bin.install "cmetry"
@@ -28,16 +28,16 @@ class Cmetry < Formula
   
     on_linux do
       if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-        url "https://github.com/ant4g0nist/chronometry/releases/download/v0.9.7/chronometry_Darwin_arm64.tar.gz"
-        sha256 "56d0a318153a196765f6243b63642ced6fee6ab747b8f0a1f494ae17b890d586"
+        url "https://github.com/ant4g0nist/chronometry/releases/download/v0.9.8/chronometry_Darwin_arm64.tar.gz"
+        sha256 "ec3170f754319e0c8da1a7233a88a7fad56a49fe86bdcb4a18fd73ad7556a832"
   
         def install
           bin.install "cmetry"
         end
       end
       if Hardware::CPU.intel?
-        url "https://github.com/ant4g0nist/chronometry/releases/download/v0.9.7/chronometry_Darwin_x86_64.tar.gz"
-        sha256 "21ac2dc734dae8c6aa8f4198cecdcca0334d3b1a7978f7c99c26dc230951b88d"
+        url "https://github.com/ant4g0nist/chronometry/releases/download/v0.9.8/chronometry_Darwin_x86_64.tar.gz"
+        sha256 "698d899b32f4f449107c003a522eb9940d79ac255b44585e372f39508546cccd"
   
         def install
           bin.install "cmetry"
